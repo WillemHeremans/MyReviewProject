@@ -72,15 +72,15 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Juan** - *Initial work* - [GitHub account](https://github.com/juancely)
-* **Mathieu** - *Initial work* - [GitHub account](https://github.com/matherbs)
-* **Michaël** - *Initial work* - [GitHub account](https://github.com/michaelbavier)
-* **Mourad** - *Initial work* - [GitHub account](https://github.com/Mourad-seven)
-* **Willem** - *Initial work* - [GitHub account](https://github.com/WillemHeremans)
-* **Vadim** - *Initial work* - [GitHub account](https://github.com/Va2)
+* **Juan** - [GitHub account](https://github.com/juancely)
+* **Mathieu** - [GitHub account](https://github.com/matherbs)
+* **Michaël** - [GitHub account](https://github.com/michaelbavier)
+* **Mourad** - [GitHub account](https://github.com/Mourad-seven)
+* **Willem** - [GitHub account](https://github.com/WillemHeremans)
+* **Vadim** - [GitHub account](https://github.com/Va2)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
