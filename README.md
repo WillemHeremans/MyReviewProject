@@ -7,21 +7,9 @@ Ce projet consiste à créer un nouveau système de classement en comparent des 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. -->
 
-### White paper
+### Roadmap
 
-##### Mockup
-+ Smartphone
-+ Tablet
-+ Desktop
-
-##### Front-end
-+ Page index
-+ Page utilisateur
-+ Login/Sign-up
-
-##### Back-end
-+ Algorithme
-+ Base de données
+[roadmap.md](roadmap.md)
 
 <!-- ## Running the tests
 
