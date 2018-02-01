@@ -1,15 +1,15 @@
 ### Roadmap
 
 ##### Front-end  
-+ Mockup v1 -OK 
-+ Login/Sign-up 
-+ Page profil   
++ [x] Mockup v1  
++ [] Login/Sign-up []
++ [] Page profil   
                 
 ##### Back-end
-+ Login/Sign-up
-+ Page profil
-+ Algorithme
-+ Base de données
++ [] Login/Sign-up
++ [] Page profil
++ [] Algorithme
++ [] Base de données
 
 ##### Semaine 29/01/2017
 
