@@ -20,8 +20,3 @@
 ##### Semaine 19/02/2017
 
 
-
-|test  | test |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
