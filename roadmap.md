@@ -20,3 +20,10 @@
 ##### Semaine 19/02/2017
 
 
+Front-end  | Back-end
+| ------------- | ------------- |
+| [  ] Mockup v1  |   |
+| [  ] Login/Sign-up  | [  ] Login/Sign-up  |
+| [  ] Page profil  | [  ] Page profil  |
+|   | [  ] Algorithme  |
+|   | [  ] Base de données  |
