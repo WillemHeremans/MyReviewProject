@@ -1,11 +1,11 @@
 ### Roadmap
 
-##### Front-end | ##### Back-end
-+ Mockup v1 -OK | + Login/Sign-up
-+ Login/Sign-up | + Page profil
-+ Page profil   | + Algorithme
-                | + Base de données
-
+##### Front-end  
++ Mockup v1 -OK 
++ Login/Sign-up 
++ Page profil   
+                
+##### Back-end
 + Login/Sign-up
 + Page profil
 + Algorithme
