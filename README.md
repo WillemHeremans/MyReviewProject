@@ -40,13 +40,16 @@ Add additional notes about how to deploy this on a live system -->
 #### Technologies
 + HTML/CSS
 + JavaScript
++ Node.js
 + SQL
 
 #### Frameworks
 + Bootstrap
-+ Node.js
++ Angular
++ Ionic
 
 #### API's
++ OAuth
 + Facebook
 + Google
 
