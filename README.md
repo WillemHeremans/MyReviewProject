@@ -58,14 +58,15 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).  -->
 
-## Authors
+## Team
 
-* **Juan** - [GitHub account](https://github.com/juancely)
-* **Mathieu** - [GitHub account](https://github.com/matherbs)
-* **Michaël** - [GitHub account](https://github.com/michaelbavier)
-* **Mourad** - [GitHub account](https://github.com/Mourad-seven)
-* **Willem** - [GitHub account](https://github.com/WillemHeremans)
-* **Vadim** - [GitHub account](https://github.com/Va2)
+|   Name  |                     Position                    |                    GitHub Account                   |
+|:-------:|:-----------------------------------------------:|:---------------------------------------------------:|
+| Mourad  | Scrum Master & Back-end Developer (API/Node.js) |  [GitHub account](https://github.com/Mourad-seven)  |
+| Mathieu |  Front-end Developer & Communication/Marketing  |    [GitHub account](https://github.com/matherbs)    |
+| Michaël |       Front-end Developer (Angular/Ionic)       |  [GitHub account](https://github.com/michaelbavier) |
+| Willem  |       Back-end Developer (Database/Server)      | [GitHub account](https://github.com/WillemHeremans) |
+| Vadim   |       Front-end Developer (Angular/Ionic)       |       [GitHub account](https://github.com/Va2)      |
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
