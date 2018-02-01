@@ -21,7 +21,7 @@
 
 
 
- test  | test 
+|test  | test |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
