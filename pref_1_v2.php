@@ -32,7 +32,7 @@ echo '<header>
 <?php foreach($data as $data): ?>
 <?php
  
-if($data['age'] == $_COOKIE['age'] && $data['lieu_1'] == $_COOKIE['lieu'] && $data['sexe'] == $_COOKIE['sexe']) 
+if($data['age'] == $_COOKIE['age'] && $data['lieu_1'] == $_COOKIE['lieu'] && $data['gender'] == $_COOKIE['gender']) 
 
 {
 $rate = "100%";
@@ -40,7 +40,7 @@ $gold = "border: 5px solid gold;";
 $classButton = "cent";
 }
 
-else if (($data['age'] == $_COOKIE['age'] && $data['lieu_1'] == $_COOKIE['lieu']) || ($data['age'] == $_COOKIE['age'] && $data['sexe'] == $_COOKIE['sexe']) || ($data['sexe'] == $_COOKIE['sexe'] && $data['lieu_1'] == $_COOKIE['lieu']))
+else if (($data['age'] == $_COOKIE['age'] && $data['lieu_1'] == $_COOKIE['lieu']) || ($data['age'] == $_COOKIE['age'] && $data['gender'] == $_COOKIE['gender']) || ($data['gender'] == $_COOKIE['gender'] && $data['lieu_1'] == $_COOKIE['lieu']))
 
 {
 $rate = "75%";
@@ -48,7 +48,7 @@ $gold = "border: none;";
 $classButton = "septante";
 }
 
-else if ($data['age'] == $_COOKIE['age'] || $data['lieu_1'] == $_COOKIE['lieu'] ||  $data['sexe'] == $_COOKIE['sexe'])
+else if ($data['age'] == $_COOKIE['age'] || $data['lieu_1'] == $_COOKIE['lieu'] ||  $data['gender'] == $_COOKIE['gender'])
 
 {
 $rate = "50%";
@@ -99,13 +99,13 @@ $display = "inline-block";
 
 <?php
 
-if ($data['sexe'] == "F")
+if ($data['gender'] == "female")
 {
-$sexe = "fa fa-venus";
+$gender = "fa fa-venus";
 }
 
 else {
-$sexe = "fa fa-mars";
+$gender = "fa fa-mars";
 }
 
 ?>
@@ -166,7 +166,7 @@ button:hover, a:hover {
 <div class="card" style="<?php echo $gold ?>">
   <img src="./image/<?php echo $data['avatar'] ?>" alt="avatar" style="width:100%;height:300px;">
   <h1><?php echo $data['pseudo'] ?></h1>
-  <p class="title"><a href="./old/age.php"><?php echo $data['age'] ?></a> / <a href="#"><i class="<?php echo $sexe ?>"></i></a></p>
+  <p class="title"><a href="./old/age.php"><?php echo $data['age'] ?></a> / <a href="#"><i class="<?php echo $gender ?>"></i></a></p>
   <p>Ma préférence: <a href="./old/pref_1.php" style="color:red"><b><?php echo $data['pref_1'] ?></b></a></p> 
   <p>Mon lieu: <b><a href="./old/lieu_1.php"><?php echo $data['lieu_1'] ?></a></b></p>
   <div style="margin: 24px 0;">

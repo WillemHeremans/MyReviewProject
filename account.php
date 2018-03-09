@@ -57,10 +57,10 @@ else echo
 <br />
 <br />
 <label>Féminin</label>
-<input type="radio" name="sexe" value="F">
+<input type="radio" name="gender" value="female">
 <br />
 <label>Masculin</label>
-<input type="radio" name="sexe" value="M">
+<input type="radio" name="gender" value="male">
 <br />
 <br />
 

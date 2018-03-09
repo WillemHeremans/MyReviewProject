@@ -8,7 +8,7 @@ setcookie('pseudo', '', -1);
 setcookie('age', '', -1);
 setcookie('pref', '', -1);
 setcookie('lieu', '', -1);
-setcookie('sexe', '', -1);
+setcookie('gender', '', -1);
 }
 session_destroy();
 header('Location: login.php');

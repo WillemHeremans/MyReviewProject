@@ -5,12 +5,12 @@ include_once './core/config.php';
 
 include_once './core/connexion.php';
 
-if (isset($_COOKIE['sexe']))
+if (isset($_COOKIE['gender']))
 
 {
 
-$query=$bdd->prepare('SELECT * FROM profils WHERE sexe = :sexe AND pseudo != :pseudo');
-$query->bindValue(':sexe',$_COOKIE['sexe'], PDO::PARAM_STR);
+$query=$bdd->prepare('SELECT * FROM profils WHERE gender = :gender AND pseudo != :pseudo');
+$query->bindValue(':gender',$_COOKIE['gender'], PDO::PARAM_STR);
 $query->bindValue(':pseudo',$_COOKIE['pseudo'], PDO::PARAM_STR);
 $query->execute();
 $data=$query->fetchAll( PDO::FETCH_ASSOC );
@@ -102,13 +102,13 @@ $display = "inline-block";
 
 <?php
 
-if ($data['sexe'] == "F")
+if ($data['gender'] == "female")
 {
-$sexe = "fa fa-venus";
+$gender = "fa fa-venus";
 }
 
 else {
-$sexe = "fa fa-mars";
+$gender = "fa fa-mars";
 }
 
 ?>
@@ -169,7 +169,7 @@ button:hover, a:hover {
 <div class="card" style="<?php echo $gold ?>">
   <img src="./image/<?php echo $data['avatar'] ?>" alt="avatar" style="width:100%;height:300px;">
   <h1><?php echo $data['pseudo'] ?></h1>
-  <p class="title"><a href="./old/age.php"><?php echo $data['age'] ?></a> / <a href="#" style="color:magenta"><i class="<?php echo $sexe ?>"></i></a></p>
+  <p class="title"><a href="./old/age.php"><?php echo $data['age'] ?></a> / <a href="#" style="color:magenta"><i class="<?php echo $gender ?>"></i></a></p>
   <p>Ma préférence: <a href="./old/pref_1.php"><b><?php echo $data['pref_1'] ?></b></a></p> 
   <p>Mon lieu: <b><a href="./old/lieu_1.php"><?php echo $data['lieu_1'] ?></a></b></p>
   <div style="margin: 24px 0;">

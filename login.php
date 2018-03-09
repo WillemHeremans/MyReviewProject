@@ -233,7 +233,7 @@ $expire = time() + 365*24*3600;
 
 setcookie('pseudo', $data['pseudo'], $expire);
 setcookie('age', $data['age'], $expire);
-setcookie('sexe', $data['sexe'], $expire); 
+setcookie('gender', $data['gender'], $expire); 
 setcookie('pref', $data['pref_1'], $expire);
 setcookie('lieu', $data['lieu_1'], $expire);
 
