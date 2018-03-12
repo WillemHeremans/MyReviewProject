@@ -8,11 +8,10 @@ if (!empty($_POST)&&isset($_POST['addData'])) {
 function addData(){
 	global $bdd;
 
-	$phrase_sql = "INSERT INTO profils (pseudo, age, pref_1, pref_2, pref_3, pref_4, pref_5, lieu_1, lieu_2, lieu_3, lieu_4, lieu_5, avatar, sexe)
-    VALUES (:pseudo, :age, :pref_1, :pref_2, :pref_3, :pref_4, :pref_5, :lieu_1, :lieu_2, :lieu_3, :lieu_4, :lieu_5, :avatar, :sexe)";
+	$phrase_sql = "UPDATE profils SET age = :age, pref_1 = :pref_1, pref_2 = :pref_2, pref_3 = :pref_3, pref_4 = :pref_4, pref_5 = :pref_5, lieu_1 = :lieu_1, lieu_2 = :lieu_2, lieu_3 = :lieu_3, lieu_4 = :lieu_4, lieu_5 = :lieu_5
+    WHERE pseudo = '".$_SESSION['pseudo']."'";
 	$preparation = $bdd->prepare($phrase_sql);
 
-	$preparation->bindParam(':pseudo',$_POST['pseudo'],PDO::PARAM_STR);
 	$preparation->bindParam(':age',$_POST['age'],PDO::PARAM_STR);
 	$preparation->bindParam(':pref_1',$_POST['pref_1'],PDO::PARAM_STR);	
 	$preparation->bindParam(':pref_2',$_POST['pref_2'],PDO::PARAM_STR);

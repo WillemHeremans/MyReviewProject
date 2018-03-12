@@ -1,4 +1,11 @@
 <?php
+include_once '../core/config.php';
+
+include_once '../core/connexion.php';
+
+
+
+
 class User {
 	private $dbHost     = "localhost";
     private $dbUsername = "root";
@@ -25,7 +32,7 @@ class User {
 			$prevResult = $this->db->query($prevQuery);
 			if($prevResult->num_rows > 0){
 				// Update user data if already exists
-				$query = "UPDATE ".$this->userTbl." SET pseudo = '".$userData['first_name']."', gender = '".$userData['gender']."', avatar = '".$userData['picture']."' WHERE oauth_provider = '".$userData['oauth_provider']."' AND oauth_uid = '".$userData['oauth_uid']."'";
+				$query = "UPDATE ".$this->userTbl." SET pseudo = '".$userData['pseudo']."', gender = '".$userData['gender']."', avatar = '".$userData['picture']."' WHERE oauth_provider = '".$userData['oauth_provider']."' AND oauth_uid = '".$userData['oauth_uid']."'";
 				$update = $this->db->query($query);
 			}else{
 				// Insert user data
@@ -42,4 +49,7 @@ class User {
 		return $userData;
 	}
 }
+
+
+
 ?>

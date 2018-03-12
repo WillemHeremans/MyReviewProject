@@ -137,7 +137,7 @@ img.pub {
 <h2 style="text-align:center">Profil de ' .$data['pseudo']. '</h2>
 
 <div class="card">
-  <img src="./image/' .$data['avatar'].'" alt="avatar" style="width:100%">
+  <img src="' .$data['avatar'].'" alt="avatar" style="width:100%">
   <h1>' .$data['pseudo'].'</h1>
   <p class="title"><a href="age2.php">' .$data['age'].'</a> / <a href="gender.php"><i class="' .$gender.'"></i></a></p>
   <p>Ma préférence: <a href="pref_1_v2.php"><b>' .$data['pref_1']. '</b></a></p> 
