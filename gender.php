@@ -167,7 +167,7 @@ button:hover, a:hover {
 <h2 style="text-align:center">Match avec <?php echo $data['pseudo'] ?></h2>
 
 <div class="card" style="<?php echo $gold ?>">
-  <img src="./image/<?php echo $data['avatar'] ?>" alt="avatar" style="width:100%;height:300px;">
+  <img src="<?php echo $data['avatar'] ?>" alt="avatar" style="width:100%;height:300px;">
   <h1><?php echo $data['pseudo'] ?></h1>
   <p class="title"><a href="./old/age.php"><?php echo $data['age'] ?></a> / <a href="#" style="color:magenta"><i class="<?php echo $gender ?>"></i></a></p>
   <p>Ma préférence: <a href="./old/pref_1.php"><b><?php echo $data['pref_1'] ?></b></a></p> 

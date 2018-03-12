@@ -68,16 +68,16 @@ else echo
 <br />
 <br />
 <label><img src="./image/default.png" height="50px" width="50px" /></label>
-<input type="radio" name="avatar" value="default.png">
+<input type="radio" name="avatar" value="./image/default.png">
 <br />
 <label><img src="./image/woman.png" height="50px" width="50px" /></label>
-<input type="radio" name="avatar" value="woman.png">
+<input type="radio" name="avatar" value="./image/woman.png">
 <br />
 <label><img src="./image/garcon.png" height="50px" width="50px" /></label>
-<input type="radio" name="avatar" value="garcon.png">
+<input type="radio" name="avatar" value="./image/garcon.png">
 <br />
 <label><img src="./image/woman-pro.png" height="50px" width="50px" /></label>
-<input type="radio" name="avatar" value="woman-pro.png">
+<input type="radio" name="avatar" value="./image/woman-pro.png">
  
 <br />
 <br />

@@ -171,7 +171,7 @@ span.psw {
 
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById(`id01`).style.display=`none`" class="cancelbtn">Cancel</button>
-      <span class="psw"><a href="account.php">Create a account</a></span>
+      <span class="psw"><a href="account.php">Create an account</a> Or <a href="./facebook-login/index.php"><img src="./facebook-login/images/fblogin-btn.png" height="40px"></a></span>
     </div>
   </form>
 </div>

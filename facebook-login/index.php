@@ -61,6 +61,9 @@ if(isset($accessToken)){
 	
 	// Put user data into session
 	$_SESSION['userData'] = $userData;
+
+	$expire = time() + 365*24*3600;
+	setcookie('profils', $fbUserProfile['id'], $expire);
 	
 	// Get logout url
 	$logoutURL = $helper->getLogoutUrl($accessToken, $redirectURL.'logout.php');
@@ -111,7 +114,7 @@ if (!empty($_POST)&&isset($_POST['addData'])) {
 
 
 	if ($preparation->execute()) {
-		header('Location: index.php');
+		header('Location: ../login.php');
 	} else {
 		echo "OOOPS!";
 	}
@@ -144,7 +147,7 @@ if (!empty($_POST)&&isset($_POST['addData'])) {
 
   <form class="formulaire" action="" method="post" name="addData" id="Pref">
 
-    <h1>Créer un compte</h1>
+    <h1>Complétez votre profil</h1>
 
 <br />
 
@@ -291,7 +294,7 @@ if (!empty($_POST)&&isset($_POST['addData'])) {
 
   </form>
 <br />
-<p><a href="login.php">Go to login...</a></p>
+<p><a href="../login.php">Go to login...</a></p>
 
 <script type="text/javascript">
 var prefUn = document.getElementById("Pref_1");
@@ -375,7 +378,9 @@ document.getElementById("submit").type = "submit";
 	$loginURL = $helper->getLoginUrl($redirectURL, $fbPermissions);
 	
 	// Render facebook login button
-	$output = '<a href="'.htmlspecialchars($loginURL).'"><img src="images/fblogin-btn.png"></a>';
+
+	header('Location: '.$loginURL.'');
+	
 }
 ?>
 
@@ -391,3 +396,4 @@ document.getElementById("submit").type = "submit";
 	<div><?php echo $output; ?></div>
 </body>
 </html>
+

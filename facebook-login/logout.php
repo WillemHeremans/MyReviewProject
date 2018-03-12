@@ -9,5 +9,5 @@ unset($_SESSION['facebook_access_token']);
 unset($_SESSION['userData']);
 
 // Redirect to the homepage
-header("Location:index.php");
+header("Location: ../login.php");
 ?>
