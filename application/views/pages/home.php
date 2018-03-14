@@ -2,7 +2,7 @@
 </head>
     <body>
         
-        <h1><?php echo $title; ?>Hey</h1>
+        <h1><?php echo $title; ?></h1>
 <form action="http://localhost/MyReview/MyReviewProject/news">
     <input type="submit" value="See news" />
 </form>
