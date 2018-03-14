@@ -29,7 +29,7 @@
 
       <section id="pseudo">
         <h1>hello</h1>
-        <p> 26 ans masculin</p>
+        <p> 30 ans masculin</p>
       </section>
       
 
