@@ -39,7 +39,17 @@
 
 
       <section id="favorit">
+<div class="miniFavorit">
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+</div>
 
+<div class="miniNoFavorit">
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+</div>
 
       </section>
 

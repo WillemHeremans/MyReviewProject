@@ -73,7 +73,23 @@ h1{
     margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
-    width: 85vw;
-    height: 25vh;
-    border: 1px solid red;
+    width: 80vw;
+    height: 35vh;
  }
+
+ .miniFavorit{
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .movie{
+     height: 16vh;
+     width: 25vw;
+     margin-bottom: 10px;
+     border: 1px red solid;
+ }
+
+ .miniNoFavorit{
+     display: flex;
+     justify-content: space-around;
+}
