@@ -46,7 +46,7 @@
 
   </div>
 
-<form action="http://localhost/MyReviewProject/">
+<form action="http://localhost:8888/MyReviewProject/">
     <input type="submit" value="Go Home" />
 </form>
 

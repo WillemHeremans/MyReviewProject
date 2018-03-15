@@ -3,64 +3,100 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    height: 100%;
+    width: 100%;
+}
+/*********************************
+HEADER IMG RESPONSIVE & LOGO - Start
+*********************************/
 .img-responsive {
     width: 100%;
 }
+.match {
+    margin-bottom: 10px;
+}
+.logo{
+    position: absolute;
+    top: 160px;
+    left: 40%;
+    z-index: 2;
+    height: 60px;
+    background: #fff;
+    border: 1px solid #29c19c;
+    border-radius: 50%;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+/*********************************
+HEADER IMG RESPONSIVE & LOGO - End
+*********************************/
+
+
 
 /*********************************
 FACEBOOK LOGIN - Start
 *********************************/
-
 .btn-block {
-    width: 50%;
-    left: 25%;
+    width: 80%;
+    left: 10%;
     margin-top: 0px;
     margin-bottom: 15px;
     font-size: 15px;
 }
-
 /*********************************
 FACEBOOK LOGIN - End
 *********************************/
 
+
+
 /*********************************
 LOGIN / REGISTER FORM - Start
 *********************************/
-
-.match {
-    margin-bottom: 10px;
-}
-
 .panel-login>.panel-heading {
     color: #29c19c;
     background-color: #f0f0f0;
     text-align: center;
 }
-
 .panel-login>.panel-heading a {
     text-decoration: none;
     color: #666;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 20px;
 }
-
 .panel-login>.panel-heading a.active {
     color: #29c19c;
-    font-size: 24px;
+    font-size: 20px;
 }
-
 .panel-login input[type="text"],
 .panel-login input[type="email"],
 .panel-login input[type="password"] {
-    height: 45px;
+    height: 35px;
+    width: 80%;
+    margin-left: 10%;
     border: 1px solid #f0f0f0;
-    font-size: 24px;
+    font-size: 15px;
     -webkit-transition: all 0.1s linear;
     -moz-transition: all 0.1s linear;
     transition: all 0.1s linear;
 }
-
 .panel-login input:hover,
 .panel-login input:focus {
     outline: none;
@@ -69,7 +105,6 @@ LOGIN / REGISTER FORM - Start
     box-shadow: none;
     border-color: #f0f0f0;
 }
-
 .btn-login {
     width: 50%;
     margin-left: 25%;
@@ -82,25 +117,21 @@ LOGIN / REGISTER FORM - Start
     padding: 8px 0;
     border-color: #29c19c;
 }
-
 .btn-login:hover,
 .btn-login:focus {
     color: #fff;
     background-color: #18ac87;
     border-color: #29c19c;
 }
-
 .forgot-password {
     text-decoration: none;
     color: #888;
 }
-
 .forgot-password:hover,
 .forgot-password:focus {
     text-decoration: none;
     color: #666;
 }
-
 .btn-register {
     width: 50%;
     margin-left: 25%;
@@ -113,14 +144,12 @@ LOGIN / REGISTER FORM - Start
     padding: 8px 0;
     border-color: #29c19c;
 }
-
 .btn-register:hover,
 .btn-register:focus {
     color: #fff;
     background-color: #18ac87;
     border-color: #29c19c;
 }
-
 /*********************************
 LOGIN / REGISTER FORM - End
 *********************************/
