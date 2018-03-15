@@ -97,7 +97,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-    <form action="http://localhost:8888/MyReviewProject/profile">
+    <form action="http://localhost/MyReviewProject/profile">
         <input type="submit" value="Profile" />
     </form>
     <script src="./js/<?php echo $title; ?>.js"></script>
