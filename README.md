@@ -1,7 +1,7 @@
 # MyReviewProject
-MyReviewProject app de rating
+MyReviewProject - Profile matching app
 
-Ce projet consiste à créer un nouveau système de classement en comparent des profils similaires et non pas des notes moyennes.
+Ce projet consiste à envoyer des notifications à des profils similaire quand l'un de ces profils a aimer quelque chose (restaurent, bar, film, série, etc.) que ces profils n'ont pas encore 'liké'.
 
 <!-- ## Getting Started
 
@@ -39,14 +39,13 @@ Add additional notes about how to deploy this on a live system -->
 
 #### Technologies
 + HTML/CSS
-+ JavaScript
-+ Node.js
-+ SQL
++ JavaScript (jQuery)
++ PHP
++ MySQL
 
 #### Frameworks
 + Bootstrap
-+ Angular
-+ Ionic
++ jQuery
 
 #### API's
 + OAuth
