@@ -18,7 +18,7 @@
 
       <section id="avatar">
 
-        <img src="assets/image/avatar.png" alt="">
+        <img src="img/avatar.png" alt="">
 
       </section>
 
@@ -31,6 +31,26 @@
         <h1>hello</h1>
         <p> 30 ans masculin</p>
       </section>
+
+
+
+
+
+<!--***************************************************************************************************************************************************
+                                                                 BAR DE RECHERCHE
+   ************************************************************************************************************************************************** -->
+
+
+
+<div class="search-wrapper">
+    <div class="input-holder">
+        <input type="text" class="search-input" placeholder="Type to search" />
+        <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+    </div>
+    <span class="close" onclick="searchToggle(this, event);"></span>
+</div>
+
+
       
 
   <!--***************************************************************************************************************************************************
@@ -38,20 +58,38 @@
 *****************************************************************************************************************************************************-->
 
 
-      <section id="favorit">
+      <div id="favorit">
 <div class="miniFavorit">
-        <div class="movie"></div>
-        <div class="movie"></div>
-        <div class="movie"></div>
+        <div class="movie"><img src="img/tomb.jpg" alt=""></div>
+        <div class="movie"><img src="img/tomb.jpg" alt=""></div>
+        <div class="movie"><img src="img/tomb.jpg" alt=""></div>
+</div>
+
+<div class="miniFavorit">
+        <div class="movie"><img src="img/tomb.jpg" alt=""></div>
+        <div class="movie"><img src="img/tomb.jpg" alt=""></div>
+        <div class="movie"><img src="img/tomb.jpg" alt=""></div>
+</div>
+
+
+</div>
+
+<div id="noFavorit">
+
+
+<div class="miniNoFavorit">
+        <div class="movie"><img src="img/tomb.jpg" alt=""></div>
+        <div class="movie"><img src="img/tomb.jpg" alt=""></div>
+        <div class="movie"><img src="img/tomb.jpg" alt=""></div>
 </div>
 
 <div class="miniNoFavorit">
-        <div class="movie"></div>
-        <div class="movie"></div>
-        <div class="movie"></div>
+        <div class="movie"><img src="img/tomb.jpg" alt=""></div>
+        <div class="movie"><img src="img/tomb.jpg" alt=""></div>
+        <div class="movie"><img src="img/tomb.jpg" alt=""></div>
 </div>
 
-      </section>
+      </div>
 
 
   </div>
