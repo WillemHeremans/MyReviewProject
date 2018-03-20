@@ -8,7 +8,7 @@ body {
     width: 100%;
 }
 /*********************************
-HEADER IMG RESPONSIVE & LOGO - Start
+HEADER IMG & LOGO - Start
 *********************************/
 .img-responsive {
     width: 100%;
@@ -16,11 +16,14 @@ HEADER IMG RESPONSIVE & LOGO - Start
 .match {
     margin-bottom: 10px;
 }
-.logo{
-    position: absolute;
-    top: 160px;
-    left: 40%;
-    z-index: 2;
+.logo {
+    position: relative;
+    margin-top: -15%;
+    left: -25%;
+    /* position: absolute;
+    top: 29%;
+    left: 40%; */
+    /* z-index: 2; */
     height: 60px;
     background: #fff;
     border: 1px solid #29c19c;
@@ -46,7 +49,7 @@ HEADER IMG RESPONSIVE & LOGO - Start
     }
 }
 /*********************************
-HEADER IMG RESPONSIVE & LOGO - End
+HEADER IMG & LOGO - End
 *********************************/
 
 
@@ -60,6 +63,7 @@ FACEBOOK LOGIN - Start
     margin-top: 0px;
     margin-bottom: 15px;
     font-size: 15px;
+    padding-left: 10%;
 }
 /*********************************
 FACEBOOK LOGIN - End
@@ -134,9 +138,9 @@ LOGIN / REGISTER FORM - Start
 }
 .btn-register {
     width: 50%;
-    margin-left: 25%;
+    /* margin-left: 25%; */
     background-color: #29c19c;
-    outline: none;
+    /* outline: none; */
     color: #fff;
     font-size: 15px;
     height: auto;

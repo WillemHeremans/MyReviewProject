@@ -1,5 +1,3 @@
-	<img class="logo" src="./img/dna.png" alt="Logo">
-
     <title>Login</title>
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -17,6 +15,9 @@
 					<div class="panel panel-login">
 						<div class="panel-heading">
 							<div class="row">
+								<img class="logo" src="./img/dna.png" alt="Logo">
+
+
 								<div class="col-xs-6 login">
 									<a href="#" class="active" id="login-form-link">Login</a>
 								</div>
