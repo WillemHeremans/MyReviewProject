@@ -46,6 +46,7 @@ Add additional notes about how to deploy this on a live system -->
 #### Frameworks
 + Bootstrap
 + jQuery
++ CodeIgniter
 
 #### API's
 + OAuth
