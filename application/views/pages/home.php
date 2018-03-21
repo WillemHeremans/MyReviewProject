@@ -99,7 +99,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-    <form action="http://localhost/MyReviewProject/profile">
+    <form action="<?php echo base_url(); ?>/profile">
         <input type="submit" value="Profile" />
+    </form>
+	<form action="<?php echo base_url(); ?>/selectmovie">
+        <input type="submit" value="Select Movie" />
     </form>
     <script src="./js/<?php echo $title; ?>.js"></script>
