@@ -14,9 +14,10 @@
                     <img class="img-responsive" src="./img/match.jpeg" alt="Match image">
 					<div class="panel panel-login">
 						<div class="panel-heading">
-							<div class="row">
+							<div class="logo-img">
 								<img class="logo" src="./img/dna.png" alt="Logo">
-
+							</div>
+							<div class="row">
 
 								<div class="col-xs-6 login">
 									<a href="#" class="active" id="login-form-link">Login</a>
