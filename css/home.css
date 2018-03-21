@@ -3,14 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    height: 100%;
-    width: 100%;
-}
+/* body {
+    position: fixed;
+    top: 214px;
+    left: 0;
+} */
+
 /*********************************
 HEADER IMG & LOGO - Start
 *********************************/
 .img-responsive {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
     width: 100%;
 }
 .match {
