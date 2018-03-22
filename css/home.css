@@ -18,8 +18,8 @@ HEADER IMG & LOGO - Start
 }
 .logo {
     position: relative;
-    margin-top: -15%;
-    left: -25%;
+    /* margin-top: -15%;
+    left: -25%; */
     /* position: absolute;
     top: 29%;
     left: 40%; */
@@ -31,6 +31,9 @@ HEADER IMG & LOGO - Start
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
+}
+.logo-img{
+    margin-top: -40px;
 }
 @-moz-keyframes spin {
     100% {
@@ -75,6 +78,8 @@ FACEBOOK LOGIN - End
 LOGIN / REGISTER FORM - Start
 *********************************/
 .panel-login>.panel-heading {
+    display: flex;
+    flex-direction: column;
     color: #29c19c;
     background-color: #f0f0f0;
     text-align: center;
@@ -138,7 +143,7 @@ LOGIN / REGISTER FORM - Start
 }
 .btn-register {
     width: 50%;
-    /* margin-left: 25%; */
+    margin-left: 25%;
     background-color: #29c19c;
     /* outline: none; */
     color: #fff;
