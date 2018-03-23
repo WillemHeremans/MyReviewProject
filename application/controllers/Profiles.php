@@ -18,21 +18,21 @@ class Profiles extends CI_Controller {
                 $this->load->view('templates/footer');
         }
 
-//         public function view($slug = NULL)
-//         {
-//                 $data['news_item'] = $this->news_model->get_news($slug);
+        public function profilepage($pseudo = NULL)
+        {
+                $data['profiles_item'] = $this->profiles_model->get_profiles($pseudo);
 
-//                 if (empty($data['news_item']))
-//                 {
-//                         show_404();
-//                 }
+                if (empty($data['profiles_item']))
+                {
+                        show_404();
+                }
 
-//                 $data['title'] = $data['news_item']['title'];
+                $data['title'] = $data['profiles_item']['pseudo'];
 
-//                 $this->load->view('templates/header', $data);
-//                 $this->load->view('news/view', $data);
-//                 $this->load->view('templates/footer');
-//         }
+                $this->load->view('templates/header', $data);
+                $this->load->view('tests/profilepage', $data);
+                $this->load->view('templates/footer');
+        }
 
 //         public function create()
 //         {

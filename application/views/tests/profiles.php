@@ -1,32 +1,9 @@
-<h2><?php echo $title; ?></h2>
-
-<?php foreach ($profiles as $profiles_item): ?>
-
-        <h3>
-                <?php echo $profiles_item['pseudo']; ?>
-                <?php if ($profiles_item['gender']=="male") {
-                        echo $profiles_item['gender'];
-                } else {
-                        echo "lol";
-                }
-                  ?>
-        </h3>
-        <div class="main">
-                <?php echo $profiles_item['age']; ?>
-                <?php echo $profiles_item['pref_1']; ?>
-                <?php echo $profiles_item['pref_2']; ?>
-                <?php echo $profiles_item['pref_3']; ?>
-                <?php echo $profiles_item['pref_4']; ?>
-                <?php echo $profiles_item['pref_5']; ?>
-        </div>
-        <!-- <p><a href="<?php echo site_url('/news/'.$news_item['slug']); ?>">View article</a></p> -->
-
-<?php endforeach; ?>
 <style> .well:hover {
 background-color:#29c19c;;
 }
 </style>
 <body>
+<h2><?php echo $title; ?></h2>
     
 <div class="container">
         <div class="row">
@@ -45,7 +22,7 @@ background-color:#29c19c;;
                 }
                   ?> name="aboutme" width="140" height="140" class="img-circle">
                         <h3><?php echo $profiles_item['pseudo']; ?></h3>
-                        <em><?php echo $profiles_item['age']; ?></em>
+                        <em><?php echo $profiles_item['age']; ?> - <?php echo $profiles_item['pref_1']; ?></em>
                                 </center>
                 </div>
                 </a>
@@ -77,7 +54,7 @@ background-color:#29c19c;;
                                         <div class="modal-footer">
                                                 <center>
                                                 <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about <?php echo $profiles_item['pseudo']; ?></button>
-                                                <button type="button" class="btn btn-default">Go to my profile</button>
+                                                <a href="<?php echo base_url(); ?>/profiles/profilepage/<?php echo $profiles_item['pseudo']; ?>" class="btn btn-info" role="button">Go to my profile</a>
                                                 </center>
                                         </div>
                                 </div>
