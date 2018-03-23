@@ -103,7 +103,6 @@ background-color:#29c19c;;
 </style>
 <body>
     
-<!-- <div class="container"> -->
 
 <div class="col-lg-12 col-sm-12">
     <div class="card hovercard">
@@ -152,7 +151,94 @@ background-color:#29c19c;;
         <div class="well">
       <div class="tab-content">
         <div class="tab-pane fade in active" id="tab1">
-          <h3>This is tab 1</h3>
+            <div class="col-12">
+                I like those movies
+            </div>
+            <div class="row">
+
+                        <!--Card-->
+                        <div class="span3 well col-xs-6 col-sm-3 col-md-2">
+                                <center>
+                                <img src="https://cdn.pastemagazine.com/www/blogs/lists/1972.jpg" name="aboutme" width="100%" height="150" class="img-fluid img-thumbnail">
+                                
+                                        </center>
+                        </div>
+                        <div class="span3 well col-xs-6 col-sm-3 col-md-2">
+                                <center>
+                                <img src="https://cdn.pastemagazine.com/www/blogs/lists/1972.jpg" name="aboutme" width="100%" height="150" class="img-fluid img-thumbnail">
+                                
+                                        </center>
+                        </div>
+                        <div class="span3 well col-xs-6 col-sm-3 col-md-2">
+                                <center>
+                                <img src="https://cdn.pastemagazine.com/www/blogs/lists/1972.jpg" name="aboutme" width="100%" height="150" class="img-fluid img-thumbnail">
+                                
+                                        </center>
+                        </div>
+                        <div class="span3 well col-xs-6 col-sm-3 col-md-2">
+                                <center>
+                                <img src="https://cdn.pastemagazine.com/www/blogs/lists/1972.jpg" name="aboutme" width="100%" height="150" class="img-fluid img-thumbnail">
+                                
+                                        </center>
+                        </div>
+                        <div class="span3 well col-xs-6 col-sm-3 col-md-2">
+                                <center>
+                                <img src="https://cdn.pastemagazine.com/www/blogs/lists/1972.jpg" name="aboutme" width="100%" height="150" class="img-fluid img-thumbnail">
+                                
+                                        </center>
+                        </div>
+                        <div class="span3 well col-xs-6 col-sm-3 col-md-2">
+                                <center>
+                                <img src="https://cdn.pastemagazine.com/www/blogs/lists/1972.jpg" name="aboutme" width="100%" height="150" class="img-fluid img-thumbnail">
+                                
+                                        </center>
+                        </div>
+
+            </div>
+            <div>
+                I hate those movies
+            </div>
+            <div class="row">
+
+                        <!--Card-->
+                        <div class="span3 well col-xs-6 col-sm-3 col-md-2">
+                                <center>
+                                <img src="https://cdn.pastemagazine.com/www/blogs/lists/1972.jpg" name="aboutme" width="100%" height="150" class="img-fluid img-thumbnail">
+                                
+                                        </center>
+                        </div>
+                        <div class="span3 well col-xs-6 col-sm-3 col-md-2">
+                                <center>
+                                <img src="https://cdn.pastemagazine.com/www/blogs/lists/1972.jpg" name="aboutme" width="100%" height="150" class="img-fluid img-thumbnail">
+                                
+                                        </center>
+                        </div>
+                        <div class="span3 well col-xs-6 col-sm-3 col-md-2">
+                                <center>
+                                <img src="https://cdn.pastemagazine.com/www/blogs/lists/1972.jpg" name="aboutme" width="100%" height="150" class="img-fluid img-thumbnail">
+                                
+                                        </center>
+                        </div>
+                        <div class="span3 well col-xs-6 col-sm-3 col-md-2">
+                                <center>
+                                <img src="https://cdn.pastemagazine.com/www/blogs/lists/1972.jpg" name="aboutme" width="100%" height="150" class="img-fluid img-thumbnail">
+                                
+                                        </center>
+                        </div>
+                        <div class="span3 well col-xs-6 col-sm-3 col-md-2">
+                                <center>
+                                <img src="https://cdn.pastemagazine.com/www/blogs/lists/1972.jpg" name="aboutme" width="100%" height="150" class="img-fluid img-thumbnail">
+                                
+                                        </center>
+                        </div>
+                        <div class="span3 well col-xs-6 col-sm-3 col-md-2">
+                                <center>
+                                <img src="https://cdn.pastemagazine.com/www/blogs/lists/1972.jpg" name="aboutme" width="100%" height="150" class="img-fluid img-thumbnail">
+                                
+                                        </center>
+                        </div>
+
+            </div>                     
         </div>
         <div class="tab-pane fade in" id="tab2">
           <h3>This is tab 2</h3>
@@ -164,7 +250,6 @@ background-color:#29c19c;;
     </div>
     
     </div>
-    <!-- </div> -->
 
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
